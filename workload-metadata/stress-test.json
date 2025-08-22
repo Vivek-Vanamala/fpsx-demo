@@ -8,7 +8,7 @@
             "users_file": "cw-chatter-users-618.csv",
             "max_duration_in_mins": 30,
             "ramp_up_interval_millis": 3000,
-            "users_count": 2000,
+            "users_count": 500,
             "scripts": [
                 {
                     "script_name": "navigation-playwright.js",
@@ -30,7 +30,7 @@
           "users_file": "cw-chatter-users-618.csv",
           "max_duration_in_mins": 30,
           "ramp_up_interval_millis": 3000,
-          "users_count": 2000,
+          "users_count": 500,
           "scripts": [
               {
                   "script_name": "org618-user-flow-1.js",
