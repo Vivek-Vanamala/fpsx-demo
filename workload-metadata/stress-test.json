@@ -16,7 +16,7 @@
                     "data_files": [
                         {
                             "file": "contacts.csv",
-                            "reading_mode": "random",
+                            "reading_mode": "sequential",
                             "rewind_on_end_of_list": true
                         }
                     ]
@@ -42,7 +42,7 @@
                   "data_files": [
                       {
                           "file": "contacts.csv",
-                          "reading_mode": "random",
+                          "reading_mode": "sequential",
                           "rewind_on_end_of_list": true
                       }
                   ]
