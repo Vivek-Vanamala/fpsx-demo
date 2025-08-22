@@ -11,7 +11,7 @@ test('Salesforce Recording - Tue Aug 19 2025 11:44:52 GMT+0530 (India Standard T
       test.setTimeout(0);
       page.setDefaultTimeout(120000);
       await page.setViewportSize({ width: 3440, height: 1318 });
-      await page.goto('https://sdb29.perf2r.pc-rnd.pc-aws.salesforce.com/');
+      await page.goto('https://sdb30.perf2t.pc-rnd.pc-aws.salesforce.com/');
 
       const username = process.env.username;
       // tagName = "INPUT", inputType = "email", value = "cwchatteruser1@618.org", alternative selectors = ['aria/Username[role="textbox"]']
