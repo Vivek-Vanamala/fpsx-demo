@@ -26,21 +26,7 @@
                   ]
               }
           ]
-      },
-        {
-            "load_type": "jmeter",
-            "version": "5.6.3",
-            "task_name": "chatter-1",
-            "script_name": "CW-ChatterRead-StandardObjects-01.jmx",
-            "users_file": "cw-chatter-users-618.csv",
-            "data_files": {
-              "account_file": "accounts.csv"
-            }
       }
-    ],
-    "config": {
-      "results_tree": {
-        "enabled": true
-    }
+    ]
   }
 }
