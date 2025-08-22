@@ -15,6 +15,28 @@
                     "user_allocation_percent": 100
                 }
             ]
+        },
+        {
+            "load_type": "playwright",
+            "version": "1.0.3",
+            "task_name": "valid-flow",
+            "users_file": "cw-chatter-users-618.csv",
+            "max_duration_in_mins": 40,
+            "ramp_up_interval_millis": 3000,
+            "users_count": 2,
+            "scripts": [
+                {
+                    "script_name": "navigation-playwright.js",
+                    "user_allocation_percent": 100,
+                    "data_files": [
+                        {
+                            "file": "contacts.csv",
+                            "reading_mode": "random",
+                            "rewind_on_end_of_list": true
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
