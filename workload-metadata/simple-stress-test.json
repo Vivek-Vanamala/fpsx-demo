@@ -11,7 +11,7 @@
             "users_count": 10,
             "scripts": [
                 {
-                    "script_name": "simple-test.spec.js",
+                    "script_name": "simple-test.js",
                     "user_allocation_percent": 100,
                     "arguments": {
                         "env": "test",
