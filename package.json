@@ -1,0 +1,13 @@
+{
+  "name": "fpsx-demo",
+  "version": "1.0.0",
+  "description": "Performance testing demo with Playwright and JMeter",
+  "scripts": {
+    "test": "playwright test",
+    "test:simple": "playwright test test-plans/playwright/simple-test.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
+

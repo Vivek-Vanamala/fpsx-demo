@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Test results
+test-results/
+results/
+
+# Lock files
+package-lock.json
+
+# Playwright browsers
+.playwright/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
