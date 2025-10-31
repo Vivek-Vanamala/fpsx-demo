@@ -1,0 +1,54 @@
+{
+    "max_duration": 10,
+    "tasks": [
+        {
+            "load_type": "playwright",
+            "version": "1.0.0",
+            "task_name": "org618-top-user-flow",
+            "users_file": "cw-chatter-users-618.csv",
+            "max_duration_in_mins": 30,
+            "ramp_up_interval_millis": 3000,
+            "users_count": 7,
+            "scripts": [
+                {
+                    "script_name": "org618-with-google-flow-1.js",
+                    "user_allocation_percent": 100,
+                    "arguments": {
+                        "key1": "val1",
+                        "key2": "val2"
+                    },
+                    "data_files": [
+                        {
+                            "file": "contacts.csv",
+                            "reading_mode": "random",
+                            "rewind_on_end_of_list": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "load_type": "jmeter",
+            "version": "5.6.3",
+            "task_name": "chatter-1",
+            "script_name": "CW-ChatterRead-StandardObjects-01.jmx",
+            "users_file": "cw-chatter-users-618.csv",
+            "data_files": {
+              "account_file": "accounts.csv"
+            },
+            "arguments": {
+              "key1": "val1",
+              "key2": "val2"
+            }
+      }
+    ],
+  "config": {
+    "results_tree": {
+      "enabled": true
+    }
+  },
+"client_network_policy": {
+    "enabled": true,
+    "allowed_domains": ["sdb30.perf2t.pc-rnd.pc-aws.salesforce.com", "google.com"]
+  }
+}
