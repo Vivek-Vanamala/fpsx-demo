@@ -46,7 +46,7 @@
     "results_tree": {
       "enabled": true
     }
-  }
+  },
 "client_network_policy": {
     "enabled": true,
     "allowed_domains": ["postman-echo2.com", "*.salesforce.com"],
