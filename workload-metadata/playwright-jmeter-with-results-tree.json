@@ -49,6 +49,6 @@
   },
 "client_network_policy": {
     "enabled": true,
-    "allowed_domains": ["sdb30.perf2t.pc-rnd.pc-aws.salesforce.com"]
+    "allowed_domains": ["sdb30.perf2t.pc-rnd.pc-aws.salesforce.com", "synthetic618org28a.ist28.lightning.stm.force.com", "synthetic618org28a.ist28.my.stm.salesforce.com"]
   }
 }
