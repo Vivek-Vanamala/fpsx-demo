@@ -50,7 +50,6 @@
 "client_network_policy": {
     "enabled": true,
     "allowed_domains": ["postman-echo2.com", "*.salesforce.com"],
-    "allowed_ips": ["10.0.1.0/24"],
-    "custom_ports": [{"port": 8080, "destinations": ["10.0.3.0/24"]}]
+    "allowed_ips": ["10.0.1.0/24"]
   }
 }
