@@ -46,7 +46,7 @@
     "results_tree": {
       "enabled": true
     }
-  }
+  },
   "client_network_policy": {
   "enabled": true,
   "allowed_domains": ["sdb30.perf2t.pc-rnd.pc-aws.salesforce.com"]
