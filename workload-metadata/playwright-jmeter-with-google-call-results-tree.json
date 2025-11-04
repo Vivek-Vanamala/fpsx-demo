@@ -46,5 +46,9 @@
     "results_tree": {
       "enabled": true
     }
-  }
+  },
+   "client_network_policy": {
+    "enabled": true,
+    "allowed_domains": ["google.com","www.google.com"]
+   }
 }
