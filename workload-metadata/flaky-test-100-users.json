@@ -7,8 +7,8 @@
             "task_name": "flaky-test-with-screenshots",
             "users_file": "cw-chatter-users-618.csv",
             "max_duration_in_mins": 10,
-            "ramp_up_interval_millis": 1200,
-            "users_count": 100,
+            "ramp_up_interval_millis": 2400,
+            "users_count": 1000,
             "scripts": [
                 {
                     "script_name": "flaky-test-with-screenshot.js",
