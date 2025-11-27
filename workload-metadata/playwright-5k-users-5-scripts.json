@@ -1,0 +1,47 @@
+{
+    "max_duration": 10,
+    "tasks": [
+        {
+            "load_type": "playwright",
+            "version": "1.0.3",
+            "task_name": "flaky-test-with-screenshots",
+            "users_file": "cw-chatter-users-618.csv",
+            "max_duration_in_mins": 30,
+            "ramp_up_interval_millis": 30000,
+            "users_count": 5000,
+            "scripts": [
+                {
+                    "task_name": "task-1",
+                    "script_name": "flaky-test-with-screenshot.js",
+                    "user_allocation_percent": 20,
+                    "data_files": []
+                },
+                {
+                    "task_name": "task-2",
+                    "script_name": "flaky-test-with-screenshot.js",
+                    "user_allocation_percent": 20,
+                    "data_files": []
+                },
+                {
+                    "task_name": "task-3",
+                    "script_name": "flaky-test-with-screenshot.js",
+                    "user_allocation_percent": 20,
+                    "data_files": []
+                },
+                {
+                    "task_name": "task-4",
+                    "script_name": "flaky-test-with-screenshot.js",
+                    "user_allocation_percent": 20,
+                    "data_files": []
+                },
+                {
+                    "task_name": "task-5",
+                    "script_name": "flaky-test-with-screenshot.js",
+                    "user_allocation_percent": 20,
+                    "data_files": []
+                }
+            ]
+        }
+    ]
+}
+
